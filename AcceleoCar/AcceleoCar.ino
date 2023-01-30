@@ -12,10 +12,10 @@
 #define SCREEN_ADDRESS 0x3C
 Adafruit_SSD1306 display(Width, Height, &Wire, -1);
 Adafruit_ADXL345_Unified mpu = Adafruit_ADXL345_Unified();
-//const char* ssid = "CarServer";  // Enter SSID here
-//const char* password = "1234567810";  //Enter Password here
-const char* ssid = "Samsung";  // Enter SSID here
-const char* password = "kapil8279";  //Enter Password here
+const char* ssid = "CarServer";  // Enter SSID here
+const char* password = "1234567810";  //Enter Password here
+//const char* ssid = "Samsung";  // Enter SSID here
+//const char* password = "kapil8279";  //Enter Password here
 String base = "http://192.168.4.1/";
 WiFiClient client;
 HTTPClient http;
